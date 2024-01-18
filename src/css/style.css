@@ -1,0 +1,40 @@
+*{
+    color: inherit;
+    clear: both;
+}
+
+body{
+    margin: 0;
+    border: none;
+    max-width: 100%;
+    background-color: white;
+}
+
+
+form{
+    width: 500px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+    margin:  50px auto 0 auto;
+    background-color: lightgrey;
+}
+
+label{
+   text-transform: lowercase;
+    line-height: 1.5;
+}
+label::first-letter{
+    text-transform: capitalize;
+}
+input{
+    margin-bottom: 10px;
+}
+
+input[type='submit']{
+    padding: 5px 20px;
+}
+
