@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 
-<form action="/login.php" method="POST">
+<form action="/src/process.php" method="POST">
 
     <label for="username">Digite seu usuáio ou email cadastrado</label>
     <input type="text" name="username" id="usernameInput" required>
@@ -10,7 +10,7 @@
     <input type="password" name="password" id="passwordInput" required>
 
 
-    <input type="submit" value="Entar">
+    <input type="submit" name= "submit" value="Entrar">
 
 </form>
 
